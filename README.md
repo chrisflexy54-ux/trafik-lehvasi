@@ -1,4 +1,4 @@
-# Trafik Levhası Tespiti — YOLO26 + SAHI
+# Trafik Levhası Tespiti... YOLO26 + SAHI
 
 > **Trafik Levhası Tespiti** · Nesne Tespiti · Bilgisayarlı Görü · Gerçek Zamanlı
 > NTEKO CHRIS EMERY NGUESSAN — No: 223908708
@@ -32,7 +32,7 @@ bir model tasarlamak ve eğitmek.
 - **YOLO26**, YOLO ailesinin en güncel sürümü: YOLO11'e kıyasla CPU üzerinde
   **%43'e** varan çıkarım hızı artışı → gömülü/gözetleme kameraları için uygun.
 - **NMS'siz çıkarım**: maliyetli bir son işleme adımını ortadan kaldırır,
-  gecikmeyi azaltır — gerçek zaman için belirleyici.
+  gecikmeyi azaltır gerçek zaman için belirleyici.
 - **SAHI**: klasik tespitin kaçırdığı levhaları yakalar (aşağıdaki karşılaştırmaya
   bakınız) → gerçek koşullarda çok daha sağlam.
 - **Dayanıklılık**: çok koşullu veri kümeleri (gündüz, gece, yağmur, kar, bulanıklık,
