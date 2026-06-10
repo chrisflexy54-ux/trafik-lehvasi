@@ -1,0 +1,33 @@
+# Configuration du dataset pour l'entraînement YOLO26
+# Format Ultralytics : chemins relatifs à la racine du dataset + liste des classes.
+#
+# Les images et annotations (.txt au format YOLO normalisé) sont produites par
+# src/prepare_data.py à partir des datasets Roboflow Universe fusionnés.
+
+path: ../dataset          # racine du dataset (générée par prepare_data.py)
+train: images/train       # images d'entraînement
+val: images/val           # images de validation
+test: images/test         # images de test (optionnel)
+
+# Nombre de classes
+nc: 15
+
+# Noms des classes de panneaux de signalisation
+# Liste représentative couvrant les grandes familles décrites dans le rapport :
+# limitation de vitesse, priorité, interdiction, danger, direction, feux.
+names:
+  0: stop
+  1: yield
+  2: speed_limit
+  3: no_entry
+  4: no_overtaking
+  5: priority_road
+  6: give_way
+  7: pedestrian_crossing
+  8: children
+  9: roundabout
+  10: traffic_light_red
+  11: traffic_light_green
+  12: traffic_light_yellow
+  13: danger
+  14: direction

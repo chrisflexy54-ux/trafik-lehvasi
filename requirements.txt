@@ -1,0 +1,11 @@
+# Détection de panneaux de signalisation — YOLO26 + SAHI
+# Python >= 3.9
+
+ultralytics>=8.4.0      # YOLO26 / YOLO11 (modèle de détection)
+sahi>=0.11.0            # Slicing Aided Hyper Inference (petits objets)
+opencv-python>=4.8.0    # lecture vidéo / dessin des annotations
+torch>=2.0.0            # backend deep learning
+numpy>=1.24.0
+
+# Optionnel — préparation du dataset depuis Roboflow Universe
+roboflow>=1.1.0
